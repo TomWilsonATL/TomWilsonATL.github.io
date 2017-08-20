@@ -1,0 +1,604 @@
+		body {
+			color: #777777;
+			font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+			background-image: url("../images/seamless_paper_texture.png");
+			}
+
+		.mainheader {
+			background: #ffffff;
+			border-color: #cccccc;
+			}
+		footer {
+			background: #666666;
+			width:100%;
+			height:90px;
+			border-top-color: #4aaaa5;
+			border-top-width:10px;
+			border-top-style: solid;
+			margin: auto;
+			text-align: center;
+			font-size: 12px;
+			color: #a3b1bc;
+			line-height: 90px;
+			}
+		#main {
+			background: #ffffff;
+			border-color: #dddddd;
+			margin-bottom:35px;
+			border-radius: 10px;
+			}
+		#contactbox {
+			border-radius: 10px;	
+			}
+		header {
+			width:100%;
+			}
+
+		h1 {
+			font-family: 'Georgia', Times, Times New Roman, serif;
+			font-weight: bold;
+			font-size: 24px;
+			padding-top: 25px;
+			padding-left: 20px;
+			}
+		h2 {
+			font-family: 'Georgia', Times, Times New Roman, serif;
+			font-weight: bold;
+			font-size: 20px;
+			
+			}
+
+
+		nav { 
+			text-align: center;	
+			color:#a4a1a4;
+			right: 0;
+			bottom: 0;
+			}
+		nav a:link {
+			color: #a7a2a7;
+			text-decoration: none;
+			}
+		nav a:visited {
+			color: #a7a2a7;
+			}
+		nav a:hover { 
+			color: #ff0000; 
+			text-decoration: underline;
+			}
+		#namebox { 
+			height:80px; 
+			background-color: #4aaaa5;
+			text-align: center;
+			line-height: 80px; 
+			left: 0;
+			color: #ffffff;
+			font-size: 28px;
+			font-weight: bold;
+			font-family: Georgia, Times, "Times New Roman", serif;
+			vertical-align: bottom;
+		}
+
+		#contactbox {
+			background: #ffffff;
+			border-color: #dddddd;
+		}
+		.hrline { 
+			width:100%;
+			height: 2px;
+			color: #dddddd; 
+		}
+		 
+		.clearfix:: after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+	
+		.tileleft, .tileright, #iconcard img, {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			}
+
+
+		.clearfix:: after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+		
+		.hrline {
+		    width: 100%;
+		    height: 2px;
+		    color: #dddddd;
+		}
+
+		hr {
+		    margin-top: 20px;
+		    margin-bottom: 20px;
+		    border: 0;
+		    border-top: 1px solid #eee;
+			display: block;
+		    -webkit-margin-before: 0.5em;
+		    -webkit-margin-after: 0.5em;
+		    -webkit-margin-start: auto;
+		    -webkit-margin-end: auto;
+		}
+		
+		p a:link {
+		    color: #6633cc;
+		    text-decoration: none;
+		}
+
+		p a:hover {
+		    text-decoration: underline;
+		    color: #ff0000;
+		}
+
+		p a:visited 
+		{
+			color: #83827f;
+		}
+
+
+		p {
+			display: block;
+		    padding: 0px 20px 10px 25px;
+		    line-height: 20px;
+		    color: #83827f;
+		}
+
+
+		@media only screen and (max-width: 1920px) {
+			
+			#content { 
+				display: inline-block; 
+			}
+
+			section {
+				width: 620px;
+				padding-top:35px;
+			}
+
+			#main {
+				width: 355px;
+				float: left;
+			}
+
+
+			#contactbox {
+				width:228px;
+				padding: 10px;
+				margin-left: 15px;
+				float: right;
+				text-align: center;
+			}
+
+			
+			.iconsize {
+				width: 52px;
+				height: 52px;
+
+			}
+			
+			.iconpad {
+				margin-right: 10px;
+
+			}
+
+			h2 {
+				padding-top: 5px;
+	    		padding-bottom: 10px;
+    		}
+			
+			header {
+				height: 80px;
+				background-color: #ffffff;
+				border-bottom: #cccccc;
+				border-bottom-color: #cccccc;
+				border-bottom-width: 100%;
+				border-bottom-style: solid;
+				border-bottom-width: 2px;
+			}
+
+			#heading, #footertext, section {
+			    width: 620px;
+			    margin: auto;
+			}
+
+			.biopic { 
+				width: 304px;
+				height: 304px;
+				padding: 0px 20px 10px 25px;
+			}
+
+			nav {
+				float: right;
+				width:260px;
+				line-height: 80px;
+			}
+
+			#namebox {
+				width: 223px;
+				float:left;
+			}
+
+			.navlink {
+				display: inline;
+				padding-left: 10px;
+			}
+
+			.navlinkborder {
+				border-right-style: solid;
+				border-right-color: #eeeeee;
+				border-right-width: thin;
+				padding-right:20px;
+			}
+
+			.tileright, .tileleft {
+				width: 315px;
+				padding-left: 20px;
+				padding-bottom: 20px;
+				border: none;
+			}
+			
+			label {
+				display: block;
+				color:#76797e;
+			}
+			input, textarea {
+				margin-bottom: 20px;
+				margin-top: 5px;
+				border-width: thin;
+				border-style: solid;
+				border-color: #dddddd;
+				width: 100%;
+				padding:5px;
+			}
+			form {
+				padding: 0px 35px 20px 25px;
+			}
+
+			.btn {
+				background-color: #4aaaa6;
+				color: #ffffff;
+				padding: 10px;
+				border: none;
+				font-weight: bold; 
+				font-size: 16px;
+			}
+
+			
+		}
+
+		@media only screen and (max-width: 980px) {
+			#content { 
+				display: inline-block; 
+			}
+
+			section {
+				width: 620px;
+				padding-top:35px;
+			}
+
+			#main {
+				width: 355px;
+				float: left;
+			}
+
+
+			#contactbox {
+				width:228px;
+				padding: 10px;
+				margin-left: 15px;
+				float: right;
+				text-align: center;
+			}
+
+			
+			.iconsize {
+				width: 52px;
+				height: 52px;
+
+			}
+			
+			.iconpad {
+				margin-right: 10px;
+
+			}
+
+			h2 {
+				padding-top: 5px;
+    			padding-bottom: 10px;
+    		}
+			
+			header {
+				height: 80px;
+				background-color: #ffffff;
+				border-bottom: #cccccc;
+				border-bottom-color: #cccccc;
+				border-bottom-width: 100%;
+				border-bottom-style: solid;
+				border-bottom-width: 2px;
+			}
+
+			#heading, #footertext, section {
+			    width: 620px;
+			    margin: auto;
+			}
+
+			.biopic { 
+				width: 304px;
+				height: 304px;
+				padding: 0px 20px 10px 25px;
+			}
+
+			nav {
+				float: right;
+				width:260px;
+				line-height: 80px;	
+			}
+			#namebox {
+				width: 223px;
+				float:left;
+			}
+
+			.navlink {
+				display: inline;
+				padding-left: 10px;
+			}
+
+			.navlinkborder {
+				border-right-style: solid;
+				border-right-color: #eeeeee;
+				border-right-width: thin;
+				padding-right:20px;
+
+			}
+
+			.tileright, .tileleft {
+				width: 315px;
+				padding-left: 20px;
+				padding-bottom: 20px;
+				border: none;
+			}
+
+			form {
+				padding: 0px 35px 20px 25px;
+			}
+
+			.btn {
+				background-color: #4aaaa6;
+				color: #ffffff;
+				padding: 10px;
+				border: none;
+				font-weight: bold; 
+				font-size: 16px;
+			}
+			
+		}
+
+
+		@media only screen and (max-width: 768px)  {
+			#content { 
+				display: inline-block; 
+				margin-bottom:35px;
+				width:660px;
+
+			}
+
+			section {
+				width: 655px;
+				padding-top:25px;
+			}
+
+			#main {
+				width: 655px;
+				clear: right;
+			}
+
+
+			#contactbox {
+				width:655px;
+				margin-right: 5px;
+				text-align: left;
+				padding:0px;
+				margin: auto;
+
+			}
+
+			.connectpad {
+				padding: 20px;
+			}
+			
+
+			.iconsize {
+				width: 56px;
+				height: 56px;
+
+			}
+
+			header {
+				height: 80px;
+				background-color: #ffffff;
+				border-bottom: #cccccc;
+				border-bottom-color: #cccccc;
+				border-bottom-width: 100%;
+				border-bottom-style: solid;
+				border-bottom-width: 2px;
+			}
+
+			#heading, #footertext, section {
+			    width: 655px;
+			    margin: auto;
+			}
+
+			.biopic { 
+				width: 301px;
+				height: 301px;
+				padding: 0px 20px 10px 25px;
+				float: left;
+			}
+
+			nav {
+				float: right;
+				width:260px;
+				line-height: 80px;	
+			}
+
+			#namebox {
+				width: 223px;
+				float:left;
+			}
+
+			.navlink {
+				display: inline;
+				padding-left: 10px;
+			}
+
+			.navlinkborder {
+				border-right-style: solid;
+				border-right-color: #eeeeee;
+				border-right-width: thin;
+				padding-right:20px;
+			}
+
+			.tileleft {
+				float: left;
+				width: 290px;
+				border: none;
+				padding-left: 20px;
+    			padding-bottom: 20px;
+				overflow: auto;
+			}
+			.tileright {
+				float: right;
+				width: 290px;
+				border: none;
+				padding-right: 20px;
+    			padding-bottom: 20px;
+				overflow: auto;
+			}
+
+			form {
+				padding: 0px 35px 20px 25px;
+			}
+
+			.btn {
+				background-color: #4aaaa6;
+				color: #ffffff;
+				padding: 10px;
+				border: none;
+				font-weight: bold; 
+				font-size: 16px;
+			}
+
+		}
+
+		@media only screen and (max-width: 640px) {
+			#content { 
+				display: inline-block; 
+				margin-bottom:35px;
+				width:360px;
+
+			}
+
+			section {
+				width: 360px;
+			}
+
+			#main {
+				width: 360px;
+				clear: right;
+			}
+
+
+			#contactbox {
+				width: 360px;
+				margin-right: 5px;
+				text-align: left;
+				padding:0px;
+				margin: auto;
+
+			}
+
+			.connectpad {
+				padding: 20px;
+			}
+			
+
+			.iconsize {
+				width: 37px;
+				height: 37px;
+
+			}
+
+			header {
+				height: 110px;
+				background-color: #4aaaa5;
+			}
+			
+			#heading {
+				width:100%;
+				background-color: #ffffff;
+			}
+
+			#footertext, section {
+			    width: 360px;
+			    margin: auto;
+			}
+
+			.biopic { 
+				width: 301px;
+				height: 301px;
+				padding: 0px 20px 10px 25px;
+				float: left;
+			}
+
+			nav {
+				width: 100%;
+				line-height: 30px;
+				background-color: #ffffff;
+				border-bottom: #cccccc;
+				border-bottom-color: #cccccc;
+				border-bottom-width: 100%;
+				border-bottom-style: solid;
+				border-bottom-width: 2px;
+				}
+			#namebox {
+				width: 100%;
+			}
+
+			.navlink {
+				text-align: center;
+				display: inline-block;
+				width:100px;
+			}
+
+			.tileright, .tileleft {
+				clear: both;
+				width: 320px;
+				padding-left: 20px;
+				padding-bottom: 20px;
+				padding-right: 10px;
+				border: none;
+				float: left;
+				
+			}
+
+			form {
+				padding: 0px 35px 20px 25px;
+			}
+
+			.btn {
+				background-color: #4aaaa6;
+				color: #ffffff;
+				padding: 10px;
+				border: none;
+				font-weight: bold; 
+				font-size: 16px;
+			}
+		}
+	
+
+		
+
