@@ -1,4 +1,2 @@
-#FILES TO IGNORE
 .DS_Store
-*.zip
-*.txt
+.vscode/

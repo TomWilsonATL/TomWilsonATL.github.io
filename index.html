@@ -1,21 +1,317 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>My Bio</title>
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apple.com - 1997</title>
+    <link href="./styles.css" rel="stylesheet">
+
 </head>
+
 <body>
-<h1>My Bio</h1>
-<img src="images/thwilson.jpg" style="float: right; padding:10px; width:300px;">
-<p>Subway tile flannel stumptown drinking vinegar, man bun salvia taxidermy enamel pin pinterest pork belly selfies selvage edison bulb. 3 wolf moon blog humblebrag twee pickled iPhone freegan chartreuse affogato. Polaroid stumptown bushwick skateboard, hot chicken sustainable helvetica tacos hella banjo. Hot chicken ramps air plant jianbing banh mi. Butcher woke literally, cray church-key gluten-free listicle taiyaki schlitz chillwave 90's unicorn artisan. Try-hard cred salvia waistcoat crucifix. Craft beer la croix put a bird on it bicycle rights. Cornhole marfa everyday carry stumptown coloring book farm-to-table. Iceland coloring book single-origin coffee distillery. Subway tile street art skateboard, banh mi butcher microdosing helvetica tote bag. Listicle heirloom drinking vinegar next level vexillologist hammock mixtape hashtag keffiyeh taxidermy vice tote bag venmo. Pok pok taxidermy photo booth jianbing.</p>
 
-<p>Banh mi godard kinfolk selfies, truffaut mlkshk meh small batch photo booth. Lomo ramps trust fund, 3 wolf moon snackwave roof party pop-up authentic succulents schlitz vegan iceland squid umami meditation. Copper mug la croix truffaut tattooed. Post-ironic kombucha mixtape, austin drinking vinegar pork belly cloud bread tacos chicharrones distillery. Drinking vinegar freegan vegan af, cloud bread marfa echo park try-hard mixtape truffaut godard. Vice drinking vinegar green juice unicorn, etsy food truck art party deep v distillery la croix. Chia portland forage bushwick wayfarers vape. Blog franzen squid, venmo seitan wolf bespoke yuccie. Tattooed narwhal pabst, authentic pickled flannel aesthetic palo santo. Cray thundercats copper mug meditation crucifix, food truck kogi locavore artisan everyday carry tumeric PBR&B tbh. Messenger bag chicharrones biodiesel four loko austin synth. Glossier meh try-hard chicharrones kickstarter, kinfolk bicycle rights hexagon chia street art celiac williamsburg tumeric helvetica. Banh mi normcore YOLO plaid prism, marfa tousled whatever mixtape shaman lyft flannel af. Jianbing photo booth taiyaki readymade etsy.</p>
+    <div class="grid-container">
+        <div class="colNav">
+            <!-- MENU -->
 
-<p>Gluten-free kogi single-origin coffee schlitz affogato. Vegan drinking vinegar iceland, fanny pack keffiyeh direct trade gluten-free chartreuse poutine XOXO affogato cold-pressed PBR&B. Af +1 gluten-free cred distillery affogato. Keytar selvage VHS poutine photo booth craft beer. DIY poutine kogi polaroid lyft, forage typewriter crucifix squid mustache pickled. Kombucha fashion axe dreamcatcher authentic four loko etsy actually, drinking vinegar pok pok tattooed microdosing gastropub. Mumblecore ethical kitsch, shoreditch deep v slow-carb bitters flexitarian jean shorts. Vexillologist forage photo booth craft beer salvia. Celiac PBR&B poutine meh snackwave, bespoke distillery tilde gastropub single-origin coffee lomo knausgaard. Narwhal tousled jean shorts XOXO normcore. Single-origin coffee actually kogi, trust fund try-hard mixtape VHS edison bulb helvetica kickstarter authentic.</p>
+            <!-- Image nav 1 -->
+            <a href="find-it.html"><img src="./images/findit.gif" alt="Find It" class="finditbtn"></a>
+            <ul class="navmenu no-bullets">
+                <li><a href="product-information.html">Product Information</a></li>
+                <li><a href="customer-support.html">Customer Support</a></li>
+                <li><a href="technology.html">Technology &amp; Research</a></li>
+                <li><a href="developer-world.html">Developer World</a></li>
+                <li><a href="groups-and-interests.html">Groups &amp; Interests</a></li>
+                <li><a href="resources-online.html">Resources Online</a></li>
+                <li><a href="about-apple.html">About Apple</a></li>
+            </ul>
 
-<p>Disrupt palo santo shoreditch, cardigan knausgaard unicorn trust fund venmo. Pork belly food truck hell of, marfa gochujang yr fixie photo booth flexitarian sartorial put a bird on it ugh. Cred normcore helvetica narwhal. Blue bottle jean shorts messenger bag tousled dreamcatcher four loko banjo artisan banh mi synth. Cronut crucifix pinterest fixie salvia fingerstache occupy. Church-key wolf woke keytar kitsch salvia banh mi shaman, direct trade normcore meh brunch four dollar toast pour-over. Ramps hella chia knausgaard vaporware lumbersexual street art single-origin coffee next level. Thundercats enamel pin celiac mixtape, raw denim migas bicycle rights quinoa VHS put a bird on it la croix seitan semiotics. Farm-to-table iceland tilde raw denim. Gluten-free hella yr, vegan air plant venmo food truck.</p>
+            <img src="./images/divider.gif">
+            <img src="./images/worldwide.gif" alt="Apple Sites Worldwide" title="Apple Sites Worldwide">
 
-<p>Hashtag yr letterpress, af pitchfork gluten-free knausgaard. Art party trust fund celiac, bespoke pop-up subway tile unicorn knausgaard copper mug polaroid street art flexitarian put a bird on it. Chia adaptogen pour-over normcore lomo franzen post-ironic seitan artisan schlitz umami occupy ugh. IPhone bushwick man bun deep v health goth slow-carb scenester four loko activated charcoal biodiesel jean shorts raclette retro chambray adaptogen. Echo park schlitz chambray, prism chillwave la croix selvage woke health goth pok pok. Lomo bicycle rights food truck trust fund, intelligentsia raw denim synth shaman green juice. Leggings woke vexillologist heirloom austin health goth. Palo santo raclette tacos fanny pack forage austin shabby chic +1 literally man bun taiyaki chambray. VHS vegan helvetica disrupt godard, palo santo gastropub XOXO synth etsy gochujang la croix +1 poke portland. Kogi twee crucifix, knausgaard iceland plaid deep v readymade lo-fi vape mumblecore.</p>
+            <!-- Form -->
+            <div align="center" id="myform">
+
+                <script language="javascript">
+                    function myChangeHandler() {
+                        window.open(this.options[this.selectedIndex].value, '_blank');
+                        this.form.submit();
+                    }
+                </script>
+
+                <form id="formElement" method="get" action="#">
+                    <select onchange="myChangeHandler.apply(this)" size="5">
+                        <option value="https://www.apple.com/hk/">Asia</option>
+                        <option value="https://www.apple.com/au/">Australia</option>
+                        <option value="https://www.apple.com/benl/">Belgium</option>
+                        <option value="https://www.apple.com/ca/">Canada</option>
+                        <option value="https://www.apple.com/cl/">Chile</option>
+                        <option value="https://www.apple.com/cz/">Czech Republic</option>
+                        <option value="https://www.apple.com/dk/">Denmark</option>
+                        <option value="https://www.apple.com/fi/">Finland</option>
+                        <option value="https://www.apple.com/fr/">France</option>
+                        <option value="https://www.apple.com/de/">Germany</option>
+                        <option value="https://www.apple.com/nl/">Holland</option>
+                        <option value="https://www.apple.com/hk/en/">Hong Kong</option>
+                        <option value="https://www.apple.com/hu/">Hungary</option>
+                        <option value="https://www.apple.com/it/">Italy</option>
+                        <option value="https://www.apple.com/jp/">Japan</option>
+                        <option value="https://www.apple.com/lae/">Latin America</option>
+                        <option value="https://www.apple.com/mx/">Mexico</option>
+                        <option value="https://www.apple.com/nz/">New Zealand</option>
+                        <option value="https://www.apple.com/no/">Norway</option>
+                        <option value="https://www.apple.com/pl/">Poland</option>
+                        <option value="https://www.apple.com/si/">Slovakia</option>
+                        <option value="https://www.apple.com/za/">South Africa</option>
+                        <option value="https://www.apple.com/es/">Spain</option>
+                        <option value="https://www.apple.com/se/">Sweden</option>
+                        <option value="https://www.apple.com/chde/">Switzerland</option>
+                        <option value="https://www.apple.com/th/">Taiwan</option>
+                        <option value="https://www.apple.com/tr/">Turkey</option>
+                        <option value="https://www.apple.com/uk/">UK &amp; Ireland</option>
+                        <option value="https://www.apple.com/">United States
+                    </option></select></form>
+
+                <img src="images/go.gif" alt="Go" title="Select a site from the form above">
+
+
+            </div>
+
+
+
+            <img src="./images/divider.gif ">
+
+            <!-- nav b -->
+            <ul class="navmenu no-bullets">
+                <li><a href="where-to-buy.html">Where to Buy</a></li>
+                <li><a href="register-to-win.html">Register to Win</a></li>
+                <li><a href="software-updates.html">Software Updates</a></li>
+                <li><a href="homepage-archives.html">Home Page Archives</a></li>
+            </ul>
+
+        </div>
+        <div class="colHeader">
+            <a name="top"></a>
+            <!-- MOBILE NAV -->
+            <div class="mobileNav"> <a href="index.html">Home</a> | <a href="product-information.html">Product Information</a> | <a href="customer-support.html">Customer Support</a>                | <a href="technology.html">Technology &amp; Research</a> | <a href="developer-world.html">Developer World</a>                | <a href="groups-and-interests.html">Groups &amp; Interests</a> | <a href="about-apple.html">About Apple</a>                | <a href="where-to-buy.html">Where to Buy</a> | <a href="register-to-win.html">Register to Win</a> |
+                <a
+                    href="software-updates.html">Software Updates</a> | <a href="homepage-archives.html">Home Page Archives</a></div>
+
+
+
+            <!-- HEADER -->
+            <img src="images/970714.gif" class="dateimg" alt="July 14, 1997" title="July 14, 1997"><br>
+            <img src="images/banner.gif" class="headerimg" alt="Welcome to Apple 1997" title="Welcome to Apple 1997"><br>
+            <img src="images/promo.jpg" class="promoimg" alt="Introducing CyberDrive.." usemap="#image-map"><br>
+
+            <map name="image-map">
+                    <area alt="Introducing CyberDrive" title="Introducing CyberDrive" href="cyberdrive.html" coords="302,172,3,3" shape="rect">
+                    <area alt="Emate 300" title="Emate 300" href="emate300.html" coords="320,76,451,6" shape="rect">
+                    <area alt="Movies from Mars" title="Movies from Mars" href="moviesfrommars.html" coords="454,165,318,88" shape="rect">
+                </map>
+
+            <img src="images/whatshot.gif" alt="What's Hot" title="What's Hot" class="hotimg">
+        </div>
+        <div class="colMainLeft">
+            <!-- MAIN LEFT -->
+            <h3> Preorder Mac OS 8</h3>
+            Now you can <a href="#">preorder Mac OS 8</a>, described by Macworld as "the most comprehensive update to the
+            Mac OS in years, sporting a bold new look, a speedier Finder, more shortcuts and integrated Internet functions."
+
+            <hr class="hrdivider">
+
+            <h3>Want a PowerBook?</h3>
+            Qualify to win a <a href="#">PowerBook 3400/200</a> by <a href="#">entering</a> this month's Apple Registration
+            Sweepstakes.
+
+            <hr class="hrdivider">
+
+            <h3>Big Help for Small Biz </h3>
+            Find out what you need to make your small business a success. <a href="#">Apple Small Business</a> has information
+            about everything from great deals on leasing to dealing with the SBA.
+
+            <hr class="hrdivider">
+
+            <h3>eMate Special</h3>
+            Parents of school-age children have a limited-time special opportunity to purchase Apple's exciting eMate 300 mobile computer
+            at promotional prices.
+
+            <hr class="hrdivider">
+
+            <h3>Apple Softwear</h3>
+            Find t-shirts, jackets, backpacks and other great gear at <a href="#">AppleDesigns</a>, the Apple online department
+            store. Great gifts for friends and family.
+
+            <hr class="hrdivider">
+
+            <h3>AppleShare IP</h3>
+            The latest <a href="#">AppleShare IP 5.0</a> offers Internet services including file sharing, FTP and email,
+            improves performance, integrates all workgroup services and provides ease of development and administration.
+
+            <hr class="hrdivider">
+
+            <h3 class="applesite">APPLE SITE OF THE DAY</h3>
+
+            <h3>People Like You</h3>
+            You've got this great Apple product, and you'd like to share your experiences with people like yourself. Find the
+            <a href="#">User Group</a> that's nearest you.
+
+            <hr class="hrdivider">
+
+            <h3>New Color Printers</h3>
+            Three new Apple color ink jet <a href="#">printers</a>, the <a href="#">Color StyleWriter 4100</a>,
+            <a href="#">Color StyleWriter 4500</a> and <a href="#">Color StyleWriter 6500</a>, offer great performance and
+            advanced technology.
+
+            <hr class="hrdivider">
+
+            <h3> Mac OS 8 Preview</h3>
+            Get the latest info, including early rave reviews, on <a href="#">Mac OS 8</a>, which offers a new user experience
+            and a wealth of Internet services. See a <a href="#">screen shot</a> and descriptions of cool new features.
+
+            <hr class="hrdivider">
+
+            <h3> World's Fastest Laptop</h3>
+            The blazingly fast (240MHz) <a href="#">PowerBook 3400</a> gives you state-of-the-art multimedia, advanced communications
+            capabilities, and flexible expansion options.
+
+
+        </div>
+        <div>
+            <img src="./images/black.gif" class="dotBlackMain">
+        </div>
+        <div class="colMainRight">
+            <!-- MAIN RIGHT -->
+
+
+            <h3>Be the First to Know</h3>
+            Learn about new Macintosh software releases the moment they become available. Check <a href="#">Hot Mac Products</a>            to hear about programs like Speed Demon, ReBirth RB-338 and QuickCRC.
+
+            <hr class="hrdivider">
+
+            <h3>Newton Connects</h3>
+            Newton, Inc., will enhance network connectivity for Newton-based devices this fall via <a href="#">Newton Internet Enabler 2.0</a>.
+            Ethernet capability can connect devices to Local Area Networks.
+
+            <hr class="hrdivider">
+
+            <h3> Welcome to Mars</h3>
+            See alien terrain in <a href="#">QuickTime VR movies</a> from Sojourner, the brave six-wheeler that covers the
+            Red Planet for NASAs Pathfinder mission.
+
+            <hr class="hrdivider">
+
+            <h3>Boston Mac Party</h3>
+            Join the fun at <a href="#">Macworld Expo/Boston</a>, the summer's biggest bash for the Macintosh community,
+            August 5-8.
+
+            <hr class="hrdivider">
+
+            <h3 class="applesite"> CORPORATE UPDATES</h3>
+
+            Check out Apple's <a href="#">Information Resource for Press and Analysts</a> to find out what's happening at
+            Apple Computer.
+
+            <hr class="hrdivider">
+
+            <h3> Schools Choose Macs</h3>
+            School districts throughout the US are choosing Macintosh over the Windows platform, <a href="#">reports a new study</a>            by Quality Education Data.
+
+            <hr class="hrdivider">
+
+            <h3 class="applesite">HOT TIP</h3>
+
+            <h3>Windows 95 Floppies</h3>
+            To mount 1.6MB DMF Windows 95 floppies on your Mac, use Apple PC Exchange version 2.0.7 or later (v. 2.1.1 comes with Mac
+            OS 7.6).
+
+            <hr class="hrdivider">
+
+            <h3> TIL of Tomorrow</h3>
+            The <a href="#">Tech Info Library</a> -- a treasury of useful facts, insights and magic spells -- sports a new
+            look, with clickable tabs for Search, Browse, Top Articles and Help.
+
+            <hr class="hrdivider">
+
+            <h3>Ultimate Ultralight PowerBook</h3>
+            The 180MHz Macintosh <a href="#">PowerBook 2400</a> is the ideal solution for mobile professionals who want speed
+            and connectivity in a super-slim notebook computer.
+
+            <hr class="hrdivider">
+
+            <h3> Macs Unmasked</h3>
+            See Macs emote in <a href="#">Starring Apple</a>, with clips &amp; pics galore from "Batman &amp; Robin." "We
+            had an <a href="#">insatiable appetite
+                for the Mac</a>," says the computer graphics supervisor for "B&amp;R.;"
+
+            <hr class="hrdivider">
+
+            <h3> World's Fastest Home Computer</h3>
+            What's a machine this fast doing at home? The <a href="#">Power Macintosh 6500</a> runs at blistering
+            <a href="#">speeds of up to 300MHz</a>.
+
+
+
+        </div>
+        <div class="item5">
+
+            <!-- RECENT STORIES -->
+            <img src="./images/recentstories.gif" class="recentimg" alt="Recent Stories" title="Recent Stories">
+
+            <div class="gridRecent">
+                <div class="gridRecent-leftCol">
+                    <a href="#">Avie Tevanian on Mac OS 8</a><br>
+                    <a href="#">ClarisWorks for Kids</a><br>
+                    <a href="#">Job Opportunities at Apple</a><br>
+                    <a href="#">PC-Compatible Macs</a>
+                </div>
+                <div class="gridRecent-center">
+                    <img src="./images/black.gif" class="dotBlackRecent">
+                </div>
+                <div class="gridRecent-rightCol">
+                    <a href="#">Personal Web Sharing</a><br>
+                    <a href="#">Super Summer Sweepstakes</a><br>
+                    <a href="#">Thousands of Mac Products</a>
+                </div>
+            </div>
+
+
+
+            <!-- BOTTOM NAV -->
+            <div align="center">
+                <img src="./images/bottombar.gif" usemap="#image-map-btm" class="btmbar">
+
+                <map name="image-map-btm">
+                    <area target="_top" alt="What's New" title="What's New" href="whats-new.html" coords="10,9,66,24" shape="rect">
+                    <area target="_top" alt="Find It" title="Find It" href="find-it.html" coords="80,6,137,23" shape="rect">
+                    <area target="_top" alt="Apple Computer, Inc." title="Apple Computer, Inc." href="apple-computer-inc.html" coords="148,8,206,25" shape="rect">
+                    <area target="_top" alt="Contact Us" title="Contact Us" href="contact-us.html" coords="218,7,276,24" shape="rect">
+                    <area target="_top" alt="Help" title="Help" href="help.html" coords="290,7,348,22" shape="rect">
+                </map>
+
+
+                <!-- FOOTER NAV -->
+
+                <p><a href="product-information.html">Product Information</a> | <a href="customer-support.html">Customer Support</a>                    |<a href="technology.html">Technology &amp; Research</a> | <a href="developer-world.html">Developer World</a>                    | <a href="groups-and-interests.html">
+                    Groups &amp; Interests</a> | <a href="resources-online.html">Resources Online</a> | <a href="about-apple.html">About Apple</a></p>
+
+                <p><a href="where-to-buy.html">Where to Buy</a> | <a href="register-to-win.html">Register to Win</a> |
+                    <a href="software-updates.html">Software Updates</a> |
+                    <a href="homepage-archives.html">Home Page Archives</a>
+                </p>
+
+                <p><a href="whats-new.html">What's New</a> | <a href="find-it.html">Find It</a> |<a href="apple-computer-inc.html"> Apple Computer, Inc.</a>                    |
+                    <a href="contact-us.html">Contact Us</a> | <a href="help.html">Help</a></p>
+            </div>
+
+            <footer>
+                Copyright © 1997 Apple Computer, Inc.<br> Maintained online by <a href="mailto:webmaster@apple.com">webmaster@apple.com</a>.
+            </footer>
+        </div>
+    </div>
+
 </body>
+
 </html>
